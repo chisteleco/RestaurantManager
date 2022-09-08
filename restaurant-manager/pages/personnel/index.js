@@ -17,7 +17,7 @@ export default function Home({datosa}) {
       datosa.data.map((e)=>
       <tr>
         <td>{e.id}</td>
-        <td>{e.UserName}</td>
+        <td>{e.Patata}</td>
         <td>{String(e.sysadmin)}</td>
       </tr>)
     }
